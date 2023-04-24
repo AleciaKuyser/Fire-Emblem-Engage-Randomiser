@@ -1,0 +1,83 @@
+.row-box {
+    flex-direction: row; flex: true; display: flex;
+    align-items:stretch;
+}
+
+.third {
+    width: 33vw;
+    padding: 5;
+    margin: 5;
+}
+
+.select {
+    align-items: stretch;
+    width: 33vw
+}
+
+.select-options {
+    margin-left: 2vw;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    width: 21vw;
+    height: 8vh;
+    background-color: #8899ff;
+    font-size: x-large;
+}
+
+.select-button {
+    margin-right: 2vw;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    width: 8vw;
+    height: 8vh;
+    background-color: #5566bb;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.item {
+    margin: 5;
+    background-color: #8899ff;
+    align-items: center;
+}
+
+.selected-text {
+    width: 25vw;
+    margin-left:10px;
+    display:block;
+}
+
+.result-text {
+    width: 30vw;
+    margin-left:10px;
+    display:block;
+}
+
+.selected-remove {
+    width: 3vw;
+    height: 3vw;
+    padding: auto;
+    margin: auto;
+}
+
+.p5Canvas {
+    height: 0;
+    width: 0;
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
+body {
+    background-color: #445588;
+}
+
+* {
+    font-family: 'Noticia Text', serif;
+    font-size: large;
+}
+
+.list {
+    height: 76vh;
+    overflow-y: scroll;
+}
